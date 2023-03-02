@@ -9,8 +9,8 @@ spring:
       discovery:
         locator:
           enabled: true
-      default-filters:
-        - name: FilterCustom
+      #default-filters:
+       # - name: FilterCustom
       routes:
         - id: mscourse #identificador de la ruta
           uri: lb://ms-course #URL donde se hará el redirect segun el predicado definido
